@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What is Newton's second law of motion?",
+    "expected_language": "en",
+    "student_id": 1,
+    "notes": "Core physics question — should retrieve from knowledge base"
+  },
+  {
+    "question": "Mujhe Newton ka second law samjhao.",
+    "expected_language": "hi",
+    "student_id": 1,
+    "notes": "Hindi — should respond in Hindi"
+  },
+  {
+    "question": "Newton ka second law ek real life example ke saath explain karo.",
+    "expected_language": "hinglish",
+    "student_id": 1,
+    "notes": "Hinglish — should respond in Hinglish/Hindi"
+  },
+  {
+    "question": "What is my physics score?",
+    "expected_language": "en",
+    "student_id": 1,
+    "notes": "Progress query — should use get_student_progress tool"
+  },
+  {
+    "question": "Calculate 25 multiplied by 17.",
+    "expected_language": "en",
+    "student_id": 1,
+    "notes": "Math — should use calculator tool"
+  },
+  {
+    "question": "Give me 3 practice questions on Mechanics.",
+    "expected_language": "en",
+    "student_id": 1,
+    "notes": "Quiz request — should use generate_quiz tool"
+  },
+  {
+    "question": "Explain the law of conservation of momentum with an example.",
+    "expected_language": "en",
+    "student_id": 2,
+    "notes": "Knowledge retrieval — should cite sources"
+  },
+  {
+    "question": "What is projectile motion?",
+    "expected_language": "en",
+    "student_id": 2,
+    "notes": "Kinematics question"
+  },
+  {
+    "question": "Mera progress kya hai? Konse topics main zyada improve karna chahiye?",
+    "expected_language": "hi",
+    "student_id": 1,
+    "notes": "Hindi progress query — should use get_student_progress and respond in Hindi"
+  },
+  {
+    "question": "What is the difference between mass and weight?",
+    "expected_language": "en",
+    "student_id": 3,
+    "notes": "Common misconception question"
+  }
+]

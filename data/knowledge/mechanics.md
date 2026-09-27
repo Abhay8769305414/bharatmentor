@@ -1,0 +1,263 @@
+# Newtonian Mechanics — Study Reference
+
+Document: mechanics
+Version: 1.0 (BharatMentor Knowledge Base)
+Source: Original educational text, written for BharatMentor portfolio project.
+License: Original content, freely usable.
+
+---
+
+## Section: Scalars and Vectors
+
+A **scalar** quantity has magnitude only. Examples: speed, mass, temperature, distance, energy, time, pressure.
+
+A **vector** quantity has both magnitude and direction. Examples: velocity, force, acceleration, displacement, momentum, weight.
+
+Vector addition: Components are added separately.
+If A = (Ax, Ay) and B = (Bx, By), then A + B = (Ax + Bx, Ay + By).
+Magnitude of vector A: |A| = sqrt(Ax² + Ay²).
+Direction: theta = arctan(Ay / Ax).
+
+A force of 3 N east and 4 N north combine to give a resultant of 5 N at 53° north of east.
+
+---
+
+## Section: Newton's First Law
+
+Newton's First Law states: An object at rest remains at rest, and an object in uniform motion continues in uniform motion in a straight line, unless acted upon by a net external force.
+
+This is called the **law of inertia**. Inertia is the tendency of an object to resist any change in its state of motion.
+
+A heavier object has greater inertia. A book lying on a table stays there because net force is zero. A ball rolling on a frictionless surface would roll forever.
+
+When the net force on an object is zero, the object is in **equilibrium**. Balanced forces produce no acceleration.
+
+---
+
+## Section: Newton's Second Law
+
+Newton's Second Law states: The net force acting on an object equals the product of its mass and acceleration.
+
+**F = ma**
+
+where F is net force in Newtons (N), m is mass in kilograms (kg), and a is acceleration in metres per second squared (m/s²).
+
+Key points:
+- Force and acceleration are both vectors and point in the same direction.
+- Doubling the force doubles the acceleration (if mass is constant).
+- Doubling the mass halves the acceleration (if force is constant).
+- A lighter object accelerates more than a heavier object under the same force.
+
+Example: A 5 kg block is pushed with a net force of 20 N.
+Acceleration = F / m = 20 / 5 = 4 m/s².
+
+Example: A 2 kg ball is pushed with 10 N.
+Acceleration = 10 / 2 = 5 m/s².
+
+Newton's second law in component form:
+Fx = m * ax
+Fy = m * ay
+
+---
+
+## Section: Newton's Third Law
+
+Newton's Third Law states: For every action, there is an equal and opposite reaction.
+
+When object A exerts a force on object B, object B exerts an equal force in the opposite direction on object A. These forces always act on **different** objects.
+
+Examples:
+- A rocket expels gas downward (action); the gas pushes the rocket upward (reaction).
+- When you push a wall, the wall pushes back on you with equal force.
+- A swimmer pushes water backward; water pushes the swimmer forward.
+- Walking: your foot pushes the ground backward; the ground pushes your foot forward.
+
+The action and reaction forces are equal in magnitude and opposite in direction, but they act on different bodies, so they do not cancel out.
+
+---
+
+## Section: Gravitational Force
+
+The gravitational force between two masses is described by Newton's Law of Universal Gravitation:
+
+**F = G * m1 * m2 / r²**
+
+where:
+- G = 6.674 × 10⁻¹¹ N·m²/kg² (universal gravitational constant)
+- m1 and m2 are the masses of the two objects
+- r is the distance between their centres
+
+Weight is the gravitational force exerted by the Earth on an object:
+**W = mg**
+where g = 9.8 m/s² (acceleration due to gravity at Earth's surface).
+
+Mass is an intrinsic property of matter; weight depends on the local gravitational field. An object has the same mass on the Moon as on Earth, but weighs less on the Moon because g_moon ≈ 1.6 m/s².
+
+---
+
+## Section: Kinematics
+
+Kinematics describes motion without considering its causes.
+
+**Key quantities:**
+- Displacement (s): change in position, vector
+- Velocity (v): rate of change of displacement, vector
+- Acceleration (a): rate of change of velocity, vector
+- Speed: magnitude of velocity, scalar
+
+**Equations of motion (constant acceleration):**
+
+1. v = v₀ + at
+2. s = v₀t + ½at²
+3. v² = v₀² + 2as
+4. s = ½(v₀ + v)t
+
+where v₀ is initial velocity, v is final velocity, a is acceleration, t is time, s is displacement.
+
+**Projectile motion:** An object launched at angle θ with initial speed v₀.
+- Horizontal: x = v₀ cos(θ) * t (constant velocity, no horizontal acceleration)
+- Vertical: y = v₀ sin(θ) * t − ½gt²
+
+Range: R = v₀² sin(2θ) / g
+Maximum height: H = v₀² sin²(θ) / (2g)
+Time of flight: T = 2v₀ sin(θ) / g
+
+Maximum range is achieved at θ = 45°.
+
+---
+
+## Section: Momentum
+
+Linear momentum is defined as:
+
+**p = mv**
+
+where p is momentum (kg·m/s), m is mass (kg), v is velocity (m/s).
+Momentum is a vector quantity.
+
+**Law of Conservation of Momentum:**
+The total momentum of a closed system remains constant when no external net force acts on it.
+
+p_before = p_after
+m₁v₁ + m₂v₂ = m₁v₁' + m₂v₂'
+
+**Impulse:** J = F * Δt = Δp. A large force over a short time, or a small force over a long time, can produce the same impulse.
+
+**Types of collision:**
+- Elastic: both momentum and kinetic energy are conserved.
+- Inelastic: only momentum is conserved; some kinetic energy is lost.
+- Perfectly inelastic: objects stick together; maximum kinetic energy loss.
+
+---
+
+## Section: Work and Energy
+
+**Work** is done when a force causes displacement in the direction of the force.
+
+**W = F * d * cos(θ)**
+
+where θ is the angle between the force and displacement. If force and displacement are parallel, W = Fd.
+
+**Kinetic energy:** KE = ½mv²
+
+**Gravitational potential energy:** PE = mgh
+where h is height above reference level.
+
+**Work-Energy Theorem:** The net work done on an object equals the change in its kinetic energy.
+W_net = ΔKE = ½mv² − ½mv₀²
+
+**Conservation of Mechanical Energy:** In an isolated system with only conservative forces:
+KE₁ + PE₁ = KE₂ + PE₂
+
+Power: P = W / t = F * v (rate of doing work), measured in Watts (W).
+
+---
+
+## Section: Friction
+
+Friction is a force that opposes relative motion between surfaces in contact.
+
+**Static friction (fs):** prevents motion from starting. Maximum static friction = μs * N.
+**Kinetic friction (fk):** opposes sliding motion. fk = μk * N.
+
+where:
+- μs = coefficient of static friction
+- μk = coefficient of kinetic friction
+- N = normal force (perpendicular to surface)
+
+**Important:** μs > μk always. It takes more force to start sliding than to keep sliding.
+
+Friction is a contact force; it acts parallel to the surface and opposite to the direction of motion (or intended motion).
+
+On a horizontal surface, N = mg. On an incline of angle θ, N = mg cos(θ).
+
+Friction can be useful (walking, car brakes) or unhelpful (engine friction, air resistance).
+
+---
+
+## Section: Circular Motion
+
+An object moving in a circle at constant speed is in **uniform circular motion**.
+Even though speed is constant, velocity changes direction, so there IS acceleration.
+
+**Centripetal acceleration:** directed toward the centre of the circle.
+a_c = v² / r
+
+**Centripetal force:** the net force directed toward the centre.
+F_c = mv² / r
+
+Period: T = 2πr / v (time to complete one revolution)
+Frequency: f = 1 / T (revolutions per second)
+Angular velocity: ω = 2πf = v / r
+
+For a satellite orbiting Earth:
+Gravitational force provides centripetal force: GMm / r² = mv² / r
+Orbital speed: v = sqrt(GM / r)
+
+A car rounding a curve: friction provides the centripetal force. If friction is insufficient, the car slides outward.
+
+---
+
+## Section: Simple Harmonic Motion
+
+Simple Harmonic Motion (SHM) occurs when a restoring force is proportional to displacement from equilibrium and directed toward equilibrium.
+
+**Restoring force: F = −kx**
+
+where k is the spring constant (N/m) and x is displacement.
+
+**Period of a mass-spring system:** T = 2π * sqrt(m / k)
+**Period of a simple pendulum:** T = 2π * sqrt(L / g)
+
+(For small angles only — pendulum approximation breaks down beyond ~15°.)
+
+Position as a function of time: x(t) = A cos(ωt + φ)
+where A is amplitude, ω = 2πf is angular frequency, φ is phase.
+
+**Elastic potential energy:** PE_spring = ½kx²
+
+In SHM, energy alternates between kinetic and potential; total mechanical energy is constant.
+
+**Hooke's Law:** F = −kx. The spring force is proportional to extension/compression and opposite in direction. This is the basis of SHM for springs.
+
+---
+
+## Section: Torque and Rotation
+
+**Torque (τ)** is the rotational equivalent of force. It causes angular acceleration.
+
+τ = r × F = r * F * sin(θ)
+
+where r is the distance from the pivot, F is force, θ is angle between r and F.
+Unit: N·m (Newton-metres).
+
+**Moment of inertia (I):** rotational equivalent of mass. Depends on mass distribution.
+For a point mass: I = mr²
+
+**Newton's second law for rotation:** τ = I * α
+where α is angular acceleration (rad/s²).
+
+**Angular momentum:** L = I * ω
+**Conservation of angular momentum:** L is constant when no external torque acts.
+
+Example: A spinning ice skater pulls in arms → I decreases → ω increases to conserve L.

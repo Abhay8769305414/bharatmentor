@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "question": "What is Newton's second law of motion?",
+    "expected_section": "Newton's Second Law",
+    "question_type": "direct",
+    "notes": "Literal match — should retrieve Newton's Second Law section"
+  },
+  {
+    "id": 2,
+    "question": "What is inertia and which law describes it?",
+    "expected_section": "Newton's First Law",
+    "question_type": "direct",
+    "notes": "Law of inertia"
+  },
+  {
+    "id": 3,
+    "question": "Why does an object remain at rest when the net force on it is zero?",
+    "expected_section": "Newton's First Law",
+    "question_type": "conceptual",
+    "notes": "Equilibrium concept — paraphrase of first law"
+  },
+  {
+    "id": 4,
+    "question": "If the same force is applied to a lighter object, what happens to its acceleration?",
+    "expected_section": "Newton's Second Law",
+    "question_type": "application",
+    "notes": "F=ma application — inverse mass relationship"
+  },
+  {
+    "id": 5,
+    "question": "Which law explains action and reaction forces between objects?",
+    "expected_section": "Newton's Third Law",
+    "question_type": "paraphrased",
+    "notes": "Paraphrase of third law"
+  },
+  {
+    "id": 6,
+    "question": "How does a rocket engine work in terms of forces?",
+    "expected_section": "Newton's Third Law",
+    "question_type": "application",
+    "notes": "Rocket is classic third law example"
+  },
+  {
+    "id": 7,
+    "question": "What is the law of conservation of momentum?",
+    "expected_section": "Momentum",
+    "question_type": "direct",
+    "notes": "Direct question on momentum conservation"
+  },
+  {
+    "id": 8,
+    "question": "What happens to total momentum in a collision when no external force acts?",
+    "expected_section": "Momentum",
+    "question_type": "conceptual",
+    "notes": "Conservation of momentum — paraphrased"
+  },
+  {
+    "id": 9,
+    "question": "How is kinetic friction different from static friction?",
+    "expected_section": "Friction",
+    "question_type": "direct",
+    "notes": "Static vs kinetic friction comparison"
+  },
+  {
+    "id": 10,
+    "question": "Why does it take more force to start moving an object than to keep it moving?",
+    "expected_section": "Friction",
+    "question_type": "conceptual",
+    "notes": "mu_s > mu_k explanation"
+  },
+  {
+    "id": 11,
+    "question": "What are the kinematic equations for constant acceleration?",
+    "expected_section": "Kinematics",
+    "question_type": "direct",
+    "notes": "Equations of motion"
+  },
+  {
+    "id": 12,
+    "question": "At what angle does a projectile achieve maximum range?",
+    "expected_section": "Kinematics",
+    "question_type": "application",
+    "notes": "45 degrees — in kinematics section"
+  },
+  {
+    "id": 13,
+    "question": "What is Hooke's law?",
+    "expected_section": "Simple Harmonic Motion",
+    "question_type": "direct",
+    "notes": "Hooke's law is in the SHM section"
+  },
+  {
+    "id": 14,
+    "question": "What is the gravitational force between two masses?",
+    "expected_section": "Gravitational Force",
+    "question_type": "direct",
+    "notes": "Universal gravitation formula"
+  },
+  {
+    "id": 15,
+    "question": "What is the difference between mass and weight?",
+    "expected_section": "Gravitational Force",
+    "question_type": "conceptual",
+    "notes": "Mass is intrinsic, weight = mg — in gravitational section"
+  },
+  {
+    "id": 16,
+    "question": "What is photosynthesis?",
+    "expected_section": null,
+    "question_type": "out_of_domain",
+    "notes": "Biology — should score very low"
+  },
+  {
+    "id": 17,
+    "question": "Explain quantum entanglement.",
+    "expected_section": null,
+    "question_type": "out_of_domain",
+    "notes": "Quantum physics — not in corpus"
+  }
+]

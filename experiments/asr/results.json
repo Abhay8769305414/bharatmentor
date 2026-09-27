@@ -1,0 +1,49 @@
+{
+  "model": "faster-whisper (base, cpu, int8)",
+  "model_load_time_seconds": 53.6,
+  "total_audio_seconds": 11.35,
+  "total_transcription_seconds": 6.1,
+  "average_rtf": 0.54,
+  "samples": [
+    {
+      "file": "sample_01.mp3",
+      "expected": "Explain Newton's second law in simple terms.",
+      "actual": "Explain Newton's Second Law in Simple Terms.",
+      "audio_duration_seconds": 3.58,
+      "transcription_seconds": 2.35,
+      "rtf": 0.66,
+      "language_detected": "en",
+      "language_probability": 1
+    },
+    {
+      "file": "sample_02.mp3",
+      "expected": "What is Newton's second law?",
+      "actual": "Which is Newton's second law?",
+      "audio_duration_seconds": 2.3,
+      "transcription_seconds": 1.42,
+      "rtf": 0.62,
+      "language_detected": "en",
+      "language_probability": 1
+    },
+    {
+      "file": "sample_03.mp3",
+      "expected": "What is 25 multiplied by 17?",
+      "actual": "What is 25 multiplied by 17?",
+      "audio_duration_seconds": 3.38,
+      "transcription_seconds": 1.2,
+      "rtf": 0.35,
+      "language_detected": "en",
+      "language_probability": 1
+    },
+    {
+      "file": "sample_04.mp3",
+      "expected": "What is my physics score?",
+      "actual": "What is my physics score?",
+      "audio_duration_seconds": 2.09,
+      "transcription_seconds": 1.13,
+      "rtf": 0.54,
+      "language_detected": "en",
+      "language_probability": 1
+    }
+  ]
+}

@@ -1,0 +1,402 @@
+{
+  "retriever": "TF-IDF (bigrams, sublinear_tf)",
+  "dataset_total": 17,
+  "in_domain_questions": 15,
+  "out_of_domain_questions": 2,
+  "recall@1": 0.8667,
+  "recall@3": 1.0,
+  "recall@5": 1.0,
+  "mrr": 0.9222,
+  "out_of_domain_flagged": 1,
+  "out_of_domain_total": 2,
+  "question_results": [
+    {
+      "id": 1,
+      "question": "What is Newton's second law of motion?",
+      "question_type": "direct",
+      "expected_section": "Newton's Second Law",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Newton's Second Law",
+        "Torque and Rotation",
+        "Newton's Second Law",
+        "Newton's First Law",
+        "Kinematics"
+      ],
+      "top5_scores": [
+        0.1881,
+        0.1636,
+        0.1422,
+        0.1419,
+        0.0985
+      ]
+    },
+    {
+      "id": 2,
+      "question": "What is inertia and which law describes it?",
+      "question_type": "direct",
+      "expected_section": "Newton's First Law",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 0.5,
+      "top5_sections": [
+        "Torque and Rotation",
+        "Newton's First Law",
+        "Momentum",
+        "Kinematics",
+        "Simple Harmonic Motion"
+      ],
+      "top5_scores": [
+        0.13,
+        0.1262,
+        0.076,
+        0.0723,
+        0.0716
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Why does an object remain at rest when the net force on it is zero?",
+      "question_type": "conceptual",
+      "expected_section": "Newton's First Law",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Newton's First Law",
+        "Newton's Second Law",
+        "Momentum",
+        "Work and Energy",
+        "Circular Motion"
+      ],
+      "top5_scores": [
+        0.3752,
+        0.1318,
+        0.1061,
+        0.1011,
+        0.0995
+      ]
+    },
+    {
+      "id": 4,
+      "question": "If the same force is applied to a lighter object, what happens to its acceleration?",
+      "question_type": "application",
+      "expected_section": "Newton's Second Law",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Newton's Second Law",
+        "Gravitational Force",
+        "Newton's First Law",
+        "Simple Harmonic Motion",
+        "Work and Energy"
+      ],
+      "top5_scores": [
+        0.2999,
+        0.12,
+        0.1085,
+        0.082,
+        0.0814
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Which law explains action and reaction forces between objects?",
+      "question_type": "paraphrased",
+      "expected_section": "Newton's Third Law",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Newton's Third Law",
+        "Newton's Third Law",
+        "Gravitational Force",
+        "Simple Harmonic Motion",
+        "Work and Energy"
+      ],
+      "top5_scores": [
+        0.3332,
+        0.1301,
+        0.066,
+        0.0567,
+        0.0465
+      ]
+    },
+    {
+      "id": 6,
+      "question": "How does a rocket engine work in terms of forces?",
+      "question_type": "application",
+      "expected_section": "Newton's Third Law",
+      "hit@1": false,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 0.3333,
+      "top5_sections": [
+        "Work and Energy",
+        "Work and Energy",
+        "Newton's Third Law",
+        "Friction",
+        "Newton's Third Law"
+      ],
+      "top5_scores": [
+        0.1348,
+        0.1325,
+        0.099,
+        0.0948,
+        0.0738
+      ]
+    },
+    {
+      "id": 7,
+      "question": "What is the law of conservation of momentum?",
+      "question_type": "direct",
+      "expected_section": "Momentum",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Momentum",
+        "Torque and Rotation",
+        "Newton's First Law",
+        "Gravitational Force",
+        "Work and Energy"
+      ],
+      "top5_scores": [
+        0.228,
+        0.1682,
+        0.1187,
+        0.1002,
+        0.0973
+      ]
+    },
+    {
+      "id": 8,
+      "question": "What happens to total momentum in a collision when no external force acts?",
+      "question_type": "conceptual",
+      "expected_section": "Momentum",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Momentum",
+        "Torque and Rotation",
+        "Newton's First Law",
+        "Simple Harmonic Motion",
+        "Friction"
+      ],
+      "top5_scores": [
+        0.2559,
+        0.1552,
+        0.0979,
+        0.0671,
+        0.0534
+      ]
+    },
+    {
+      "id": 9,
+      "question": "How is kinetic friction different from static friction?",
+      "question_type": "direct",
+      "expected_section": "Friction",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Friction",
+        "Circular Motion",
+        "Friction",
+        "Momentum",
+        "Newton's Third Law"
+      ],
+      "top5_scores": [
+        0.3288,
+        0.1323,
+        0.1109,
+        0.0722,
+        0.0471
+      ]
+    },
+    {
+      "id": 10,
+      "question": "Why does it take more force to start moving an object than to keep it moving?",
+      "question_type": "conceptual",
+      "expected_section": "Friction",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Friction",
+        "Circular Motion",
+        "Newton's Second Law",
+        "Newton's First Law",
+        "Gravitational Force"
+      ],
+      "top5_scores": [
+        0.2508,
+        0.0788,
+        0.0704,
+        0.0631,
+        0.0419
+      ]
+    },
+    {
+      "id": 11,
+      "question": "What are the kinematic equations for constant acceleration?",
+      "question_type": "direct",
+      "expected_section": "Kinematics",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Kinematics",
+        "Gravitational Force",
+        "Torque and Rotation",
+        "Newton's Second Law",
+        "Circular Motion"
+      ],
+      "top5_scores": [
+        0.124,
+        0.1014,
+        0.0868,
+        0.0853,
+        0.0751
+      ]
+    },
+    {
+      "id": 12,
+      "question": "At what angle does a projectile achieve maximum range?",
+      "question_type": "application",
+      "expected_section": "Kinematics",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Kinematics",
+        "Kinematics",
+        "Momentum",
+        "Friction",
+        "Newton's First Law"
+      ],
+      "top5_scores": [
+        0.3222,
+        0.0861,
+        0.0567,
+        0.0356,
+        0.0267
+      ]
+    },
+    {
+      "id": 13,
+      "question": "What is Hooke's law?",
+      "question_type": "direct",
+      "expected_section": "Simple Harmonic Motion",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Simple Harmonic Motion",
+        "Newton's Second Law",
+        "Newton's First Law",
+        "Torque and Rotation",
+        "Momentum"
+      ],
+      "top5_scores": [
+        0.2163,
+        0.0487,
+        0.0467,
+        0.0446,
+        0.0397
+      ]
+    },
+    {
+      "id": 14,
+      "question": "What is the gravitational force between two masses?",
+      "question_type": "direct",
+      "expected_section": "Gravitational Force",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Gravitational Force",
+        "Work and Energy",
+        "Circular Motion",
+        "Torque and Rotation",
+        "Simple Harmonic Motion"
+      ],
+      "top5_scores": [
+        0.4012,
+        0.0811,
+        0.0753,
+        0.0725,
+        0.0714
+      ]
+    },
+    {
+      "id": 15,
+      "question": "What is the difference between mass and weight?",
+      "question_type": "conceptual",
+      "expected_section": "Gravitational Force",
+      "hit@1": true,
+      "hit@3": true,
+      "hit@5": true,
+      "rr": 1.0,
+      "top5_sections": [
+        "Gravitational Force",
+        "Torque and Rotation",
+        "Newton's Second Law",
+        "Simple Harmonic Motion",
+        "Work and Energy"
+      ],
+      "top5_scores": [
+        0.1965,
+        0.1489,
+        0.1483,
+        0.1251,
+        0.0949
+      ]
+    }
+  ],
+  "out_of_domain_results": [
+    {
+      "id": 16,
+      "question": "What is photosynthesis?",
+      "top_score": 0.1179,
+      "flagged_out_of_domain": false,
+      "top5_sections": [
+        "Momentum",
+        "Torque and Rotation",
+        "Simple Harmonic Motion",
+        "Simple Harmonic Motion",
+        "Momentum"
+      ]
+    },
+    {
+      "id": 17,
+      "question": "Explain quantum entanglement.",
+      "top_score": 0.0,
+      "flagged_out_of_domain": true,
+      "top5_sections": [
+        "Torque and Rotation",
+        "Torque and Rotation",
+        "Newton's First Law",
+        "Newton's Second Law",
+        "Newton's Second Law"
+      ]
+    }
+  ]
+}
