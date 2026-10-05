@@ -61,7 +61,8 @@ Thumbs.db
 # Vector store data (can be regenerated from source)
 data/vectorstore/
 
-# Large model weights
+# Large model weights / raw book PDFs
 *.bin
 *.pt
 *.ckpt
+docs/kebo1dd/
